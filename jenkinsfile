@@ -18,7 +18,7 @@ pipeline {
     stages {
         stage('Git-Clone') {
             steps {
-                git branch: 'main', url: 'https://github.com/Akshathabm786/fork-spring-petclinic.git'
+                git branch: 'main', url: 'https://github.com/Vaishu-2203/spring-petclinic.git'
             }
         }
         stage('Build-package') {
