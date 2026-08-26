@@ -44,7 +44,7 @@ pipeline {
             Artifacts Download: ${env.BUILD_URL}artifact/target
  
             Regards,
-            DevOps Team
+            DevOps team
 """
 )
     }
